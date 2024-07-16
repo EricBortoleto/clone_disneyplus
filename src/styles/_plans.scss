@@ -10,6 +10,14 @@
     display: flex;
     justify-content: space-around;
 
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    .button {
+      margin-top: 24px;
+    }
+
     &__item {
       max-width: 380px;
       width: 100%;
@@ -24,6 +32,10 @@
 
       img {
         height: 83px;
+
+        @media (max-width: 768px) {
+          height: 70px;
+        }
       }
 
       strong {
