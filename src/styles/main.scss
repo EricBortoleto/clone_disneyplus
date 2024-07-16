@@ -119,7 +119,7 @@ body {
 
   &--secundary {
     background-color: variaveis.$corDeFundoBotaoSecundario;
-    border-color: variaveis.$corDeFundoBotaoPrimario;
+    border-color: variaveis.$corDeFundoBotaoSecundario;
 
     &:hover {
       background-color: lighten(variaveis.$corDeFundoBotaoSecundario, 3%);
